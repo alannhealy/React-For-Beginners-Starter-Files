@@ -1,3 +1,12 @@
-// let's go!
+import React from 'react';
+import { render } from 'react-dom';
 
-alert("hey");
+class StorePicker extends React.Component {
+
+    render() {
+        return <p>Hello</p>;
+    }
+
+}
+
+render(<p>HEYYYYY</p>, document.querySelector('#main'));
